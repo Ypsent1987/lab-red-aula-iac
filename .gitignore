@@ -1,0 +1,34 @@
+# Terraform working directory
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+
+# Terraform plan files
+*.tfplan
+plan.bin
+
+# Variable files that may contain sensitive values
+*.tfvars
+*.tfvars.json
+
+# Terraform CLI configuration
+.terraformrc
+terraform.rc
+
+# Credentials and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+credentials
+credentials.*
+secrets
+secrets.*
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
