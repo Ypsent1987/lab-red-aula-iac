@@ -32,3 +32,20 @@ secrets.*
 Thumbs.db
 *.swp
 *.tmp
+
+# Terraform working directory
+.terraform/
+
+# Terraform state
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+
+# Terraform crash logs
+crash.log
+crash.*.log
+
+# Saved Terraform plans
+*.tfplan
+tfplan
+plan.out
