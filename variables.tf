@@ -25,3 +25,12 @@ variable "public_subnet_cidr" {
   type        = string
   default     = "10.20.10.0/24"
 }
+
+# Tipo de instancia utilizado por el servidor web
+# del caso demostrativo del laboratorio.
+
+variable "instance_type" {
+  description = "Tipo de instancia EC2 utilizado por el laboratorio."
+  type        = string
+  default     = "t3.micro"
+}
